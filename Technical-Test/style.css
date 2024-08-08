@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+  }
+  
+  /*------------ Login container ------------*/
+  
+  .box-area {
+    width: 930px;
+  }
+  
+  /*------------ Right box ------------*/
+  
+  .right-box {
+    padding: 40px 30px 40px 40px;
+  }
+  
+  /*------------ Custom Placeholder ------------*/
+  
+  ::placeholder {
+    font-size: 11px;
+  }
+  
+  .rounded-4 {
+    border-radius: 20px;
+  }
+  .rounded-5 {
+    border-radius: 30px;
+  }
+  
+  /*------------ For small screens------------*/
+  
+  @media only screen and (max-width: 768px) {
+    .box-area {
+      margin: 0 10px;
+    }
+    .left-box {
+      background-image: url('pics/sport.PNG');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+    }
+    .right-box {
+      padding: 20px;
+    }
+  }
+  
+  .logo {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .green-text a {
+    text-decoration: none;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  label {
+    font-size: 11.5px;
+  }
+  
+  .forgot a {
+    font-size: 11.5px;
+  }
+  
+  .btn-light small {
+    font-size: 11px;
+  }
+  
+  .row.text-center small {
+    font-size: 12px;
+  }
+  
+  .btn-primary {
+    font-size: 12px !important;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008080;
+  }
+  
+  .btn-primary {
+    background-color: #008080;
+  }
+  
+  /*------------ Overlay Text ------------*/
+  
+  .featured-image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .featured-image img {
+    width: 100%;
+    height: auto;
+  }
+  .text-overlay {
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+  
+  .text-overlay h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+  }
+  .text-overlay p {
+    margin-bottom: 20px;
+  }
+  
+  .form-check-input:checked {
+    background-color: #008080; 
+    border-color: #008080; }
+    
+    .form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Ajoute un effet de focus (optionnel) */
+  }
+  
+  /* Effet de glissement pour l'image */
+  .slide-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide-image img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Effet de glissement pour le bouton */
+  .slide-in-button {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-in-button:hover {
+    transform: translateX(10px);
+  }
+/* Effet de glissement pour le bouton "Log In" */
+.slide-in-button {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-in-button:hover {
+    transform: translateX(10px);
+  }  
